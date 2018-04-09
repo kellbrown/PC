@@ -15,6 +15,11 @@
 		A656B7502075B54100EC06C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A656B74F2075B54100EC06C6 /* main.m */; };
 		A656B75A2075B54100EC06C6 /* PCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A656B7592075B54100EC06C6 /* PCTests.m */; };
 		A656B7652075B54100EC06C6 /* PCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A656B7642075B54100EC06C6 /* PCUITests.m */; };
+		A656B775207722AB00EC06C6 /* FeedCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A656B774207722AB00EC06C6 /* FeedCollectionView.m */; };
+		A656B7782077240700EC06C6 /* MarqueeView.m in Sources */ = {isa = PBXBuildFile; fileRef = A656B7772077240700EC06C6 /* MarqueeView.m */; };
+		A656B77E207AE7DC00EC06C6 /* FeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A656B77D207AE7DC00EC06C6 /* FeedCell.m */; };
+		A656B781207AED2400EC06C6 /* FeedView.m in Sources */ = {isa = PBXBuildFile; fileRef = A656B780207AED2400EC06C6 /* FeedView.m */; };
+		A656B784207B253300EC06C6 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A656B783207B253300EC06C6 /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		A656B7602075B54100EC06C6 /* PCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A656B7642075B54100EC06C6 /* PCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCUITests.m; sourceTree = "<group>"; };
 		A656B7662075B54100EC06C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A656B773207722AB00EC06C6 /* FeedCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedCollectionView.h; sourceTree = "<group>"; };
+		A656B774207722AB00EC06C6 /* FeedCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedCollectionView.m; sourceTree = "<group>"; };
+		A656B7762077240700EC06C6 /* MarqueeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarqueeView.h; sourceTree = "<group>"; };
+		A656B7772077240700EC06C6 /* MarqueeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarqueeView.m; sourceTree = "<group>"; };
+		A656B77C207AE7DC00EC06C6 /* FeedCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedCell.h; sourceTree = "<group>"; };
+		A656B77D207AE7DC00EC06C6 /* FeedCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedCell.m; sourceTree = "<group>"; };
+		A656B77F207AED2400EC06C6 /* FeedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedView.h; sourceTree = "<group>"; };
+		A656B780207AED2400EC06C6 /* FeedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedView.m; sourceTree = "<group>"; };
+		A656B782207B253300EC06C6 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		A656B783207B253300EC06C6 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +120,16 @@
 				A656B7412075B54100EC06C6 /* AppDelegate.m */,
 				A656B7432075B54100EC06C6 /* ViewController.h */,
 				A656B7442075B54100EC06C6 /* ViewController.m */,
+				A656B77F207AED2400EC06C6 /* FeedView.h */,
+				A656B780207AED2400EC06C6 /* FeedView.m */,
+				A656B7762077240700EC06C6 /* MarqueeView.h */,
+				A656B7772077240700EC06C6 /* MarqueeView.m */,
+				A656B773207722AB00EC06C6 /* FeedCollectionView.h */,
+				A656B774207722AB00EC06C6 /* FeedCollectionView.m */,
+				A656B77C207AE7DC00EC06C6 /* FeedCell.h */,
+				A656B77D207AE7DC00EC06C6 /* FeedCell.m */,
+				A656B782207B253300EC06C6 /* WebViewController.h */,
+				A656B783207B253300EC06C6 /* WebViewController.m */,
 				A656B7462075B54100EC06C6 /* Main.storyboard */,
 				A656B7492075B54100EC06C6 /* Assets.xcassets */,
 				A656B74B2075B54100EC06C6 /* LaunchScreen.storyboard */,
@@ -265,8 +290,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A656B781207AED2400EC06C6 /* FeedView.m in Sources */,
 				A656B7452075B54100EC06C6 /* ViewController.m in Sources */,
 				A656B7502075B54100EC06C6 /* main.m in Sources */,
+				A656B784207B253300EC06C6 /* WebViewController.m in Sources */,
+				A656B775207722AB00EC06C6 /* FeedCollectionView.m in Sources */,
+				A656B7782077240700EC06C6 /* MarqueeView.m in Sources */,
+				A656B77E207AE7DC00EC06C6 /* FeedCell.m in Sources */,
 				A656B7422075B54100EC06C6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

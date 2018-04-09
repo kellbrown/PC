@@ -7,9 +7,33 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MarqueeView.h"
+#import "FeedCollectionView.h"
+#import "WebViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController <NSXMLParserDelegate, UICollectionViewDelegate> {
+    NSString *channelTitle;
+    
+    NSMutableArray *items;
+    NSMutableDictionary *itemDictionary;
+    
+    NSString *title;
+    NSString *link;
+    NSString *pubDate;
+    NSString *description;
+    NSString *mediaContent;
+    NSString *mediaUrl;
+    
+    NSString *currentElement;
+    NSMutableString *foundValue;
+    
+    BOOL parseItems;
+    
+    MarqueeView *marqueeView;
+    UILabel *marqueeDescription;
+    UILabel *previewArticlesLbl;
+    FeedCollectionView *feedCollectionView;
+}
 
 @end
 
